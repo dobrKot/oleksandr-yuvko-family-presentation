@@ -748,6 +748,7 @@
   <script src="assets/js/jquery-3.6.2.min.js"></script>
 
   <script>
+    window.parent.document.querySelector("meta[name=viewport]").setAttribute("content","initial-scale=1.0, viewport-fit=cover");
     $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
 
     //===== close navbar-collapse when a  clicked

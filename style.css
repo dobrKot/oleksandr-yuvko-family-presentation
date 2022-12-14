@@ -1920,6 +1920,7 @@ p {
     max-width: 60%;
     position: relative;
     right: 9px;
+    margin-left: 30px;
   }
 }
 @media(min-width:576px){
